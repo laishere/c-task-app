@@ -1,0 +1,24 @@
+{
+    "files.encoding": "utf8",
+    "files.associations": {
+        "array.h": "c",
+        "calc_view.h": "c",
+        "console.h": "c",
+        "screens.h": "c",
+        "geometry.h": "c",
+        "math.h": "c",
+        "corecrt_math.h": "c",
+        "time.h": "c",
+        "windows.h": "c",
+        "conio.h": "c",
+        "item.h": "c",
+        "brtips.h": "c",
+        "memory.h": "c",
+        "assert.h": "c"
+    },
+    "C_Cpp.default.includePath": [
+        "src",
+        "src/include"
+    ],
+    "cmake.configureOnOpen": false
+}

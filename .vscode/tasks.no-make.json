@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build",
+            "command": "C:\\w64devkit\\bin\\gcc.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-DUNICODE",
+                "-Isrc",
+                "-Isrc/include",
+                "src/*.c",
+                "src/basic/*.c",
+                "src/core/*.c",
+                "src/screen/*.c",
+                "src/view/*.c",
+                "src/model/*.c",
+                "-o",
+                "build/main.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        },
+    ],
+    "version": "2.0.0"
+}
